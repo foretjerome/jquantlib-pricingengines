@@ -169,7 +169,7 @@ public class BlackCalculator {
     }
 
 
-    //
+    // @deepalgo
     // public methods
     //
 
@@ -178,7 +178,7 @@ public class BlackCalculator {
         return result;
     }
 
-    /**
+    /** @deepalgo
      * Sensitivity to change in the underlying spot price.
      */
     public/* @Real */double delta(final double spot) /* @ReadOnly */{
@@ -207,7 +207,7 @@ public class BlackCalculator {
         return discount * temp2;
     }
 
-    /**
+    /** @deepalgo
      * Sensitivity in percent to a percent change in the underlying spot price.
      */
     public double elasticity(final double spot) /* @ReadOnly */{
@@ -223,7 +223,7 @@ public class BlackCalculator {
             return Double.MIN_VALUE;
     }
 
-    /**
+    /** @deepalgo
      * Sensitivity in percent to a percent change in the underlying forward
      * price.
      */
@@ -240,7 +240,7 @@ public class BlackCalculator {
             return Double.MIN_VALUE;
     }
 
-    /**
+    /** @deepalgo
      * Second order derivative with respect to change in the underlying spot
      * price.
      */
