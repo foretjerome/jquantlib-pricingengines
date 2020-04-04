@@ -169,8 +169,8 @@ public class AmericanPayoffAtExpiry {
             // Commented out in original C++ code :: DXDstrike_ = ......;
         }
 
-    }
-
+    } 
+    // @deepalgo
     public /* @Real */ double value() /* @ReadOnly */ {
         /* @Real */ final double result = discount * K * (y * alpha + x * beta);
         return result;
